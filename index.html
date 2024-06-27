@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Качество Исполнения Тест</title>
+    <link rel="stylesheet" href="./styles/index.scss">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__nav">
+                <ul class="header__menu menu">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link_active big-text" href="#">Text</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link big-text" href="#">Text</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link big-text" href="#">Text</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__burger burger js-toggle-burger-menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+            <div class="header__burger-menu burger-menu js-burger-menu">
+                <ul class="burger-menu__list">
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link big-text" href="burger-menu__link">Text</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link big-text" href="burger-menu__link">Text</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link big-text" href="burger-menu__link">Text</a>
+                    </li>
+                    <li class="burger-menu__item">
+                        <a class="burger-menu__link big-text" href="burger-menu__link">Text</a>
+                    </li>
+                </ul>
+                <button class="burger-menu__button button js-popup-open">Open pop-up button</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner-section">
+            <div class="banner-section__container container swiper js-slider">
+                <ul class="banner-section__list swiper-wrapper">
+                    <li class="banner-section__item swiper-slide">
+                        <div class="banner">
+                            <div class="banner__content">
+                                <h1 class="banner__title h1-title">H1 text</h1>
+                                <button class="banner__button button js-popup-open">Open pop-up button</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="banner-section__item swiper-slide">
+                        <div class="banner">
+                            <div class="banner__content">
+                                <h2 class="banner__title h1-title">H1 text</h2>
+                                <button class="banner__button button js-popup-open">Open pop-up button</button>
+                            </div>
+                        </div>
+                    </li>
+                    </ul>
+                    <div class="banner-section__button banner-section__button_prev js-slider-prev"></div>
+                    <div class="banner-section__button banner-section__button_next js-slider-next"></div>
+                    </div>
+                    </section>
+                    <section class="grid-section">
+                        <div class="grid-section__container">
+                            <h2 class="grid-section__title h2-title">H2 text</h2>
+                            <div class="grid-section__block"></div>
+                            <div class="grid-section__block"></div>
+                            <div class="grid-section__block"></div>
+                            <div class="grid-section__block"></div>
+                        </div>
+        </section>
+        <section class="card-section">
+            <div class="container card-section__container">
+                <h2 class="card-section__title h2-title">H2 text</h2>
+                <ul class="card-section__wrapper">
+                    <li class="card-section__card-item">
+                        <a class="card-section__card" href="#"></a>
+                    </li>
+                    <li class="card-section__card-item">
+                        <a class="card-section__card" href="#"></a>
+                    </li>
+                    <li class="card-section__card-item">
+                        <a class="card-section__card" href="#"></a>
+                    </li>
+                    <li class="card-section__card-item">
+                        <a class="card-section__card" href="#"></a>
+                    </li>
+                    <li class="card-section__card-item">
+                        <a class="card-section__card" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="popup-section">
+            <div class="popup-section__container">
+                <h2 class="popup-section__title big-text">Text utp</h2>
+                <button class="popup-section__button button js-popup-open">Open pop-up button</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <!-- Тут я не совсем поняла, то ли это меню, то ли текст -->
+            <div class="footer__content big-text">
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+            </div>
+        </div>
+    </footer>
+    <div class="popup js-popup">
+        <div class="popup__container">
+            <button class="popup__close js-popup-close">X</button>
+            <div class="popup__content">
+                <h2 class="h2-title">Pop-up</h2>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+
+</html>
